@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dharmik Fashion Design</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="shortcut icon" href="./png/DFD.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" media="screen and (max-width:965px)" href="phone.css" />
+</head>
+
+<body onload="myFunction()">
+  <!-- preloader -->
+  <div id="loading"></div>
+
+  <!-- navbar -->
+  <nav id="navbar">
+    <div class="for-phone">
+      <div class="logo">
+        <img src="png/logo.png" alt="Dharmik Fashion Design" />
+      </div>
+      <div class="logo-font">
+        <h1>Dharmik  <span>Fashion</span></h1>
+      </div>
+    </div>
+
+    <ul type="none" class="navitem primary manu-list">
+      <div class="icon cancel-btn">
+        <i class="fas fa-times"></i>
+      </div>
+      <li class="item"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+
+      <div class="drop-down">
+        <li class="item">
+          <a onclick="toggleHide()" href="#"><i class="far fa-folder-open"></i> Playlist <i id="remove-icon"
+              class="fa fa-angle-down"></i></a>
+        </li>
+        <div id="para" class="drop-contant secondary">
+          <a href="kurti.html">Stylish Kurti's</a>
+          <a href="pant.html">Stylish Pant's</a>
+          <a href="shorts.html">Fashion Shorts</a>
+          <a href="reuse.html">Saree Reuse Idea</a>
+        </div>
+      </div>
+
+      <li class="item"><a href="#team"><i class="fas fa-user-friends"></i></i> About</a></li>
+    </ul>
+    <div class="icon manu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <section id="section1">
+    <div class="contant">
+      <p id="quot-for-pc" class="primary">
+        <q>A Lover of Fashion; <br />
+          We present website for Fashion Design. Check all video and Subscribe Us</q>
+      </p>
+      <p id="quot-for-phone" class="primary">
+        <q>Fashion is the<br />
+          area of activity that involves styles</q>
+      </p>
+
+      <p class="primary">
+        You could spend your some time for your Fashion, <br> just watch video in our Chanlel.
+      </p>
+      <button class="button" class="srction1-button secondary">
+        <a target="_blank" href="https://www.youtube.com/c/DharmikFashionDesign">Subscribe Us</a>
+      </button>
+    </div>
+  </section>
+
+  <section id="section2">
+    <h1 id="come-up-with">Come Up With</h1>
+    <div class="container">
+      <div class="container-item">
+        <img src="./png/youtube-logo-png-2069.png" alt="Dharmik Fashion Design">
+        <h3>Stylish Kurti's</h3>
+        <p class="item-text secondary">Learn all things of Kurti cutting and stitching</p>
+        <button class="button"><a href="kurti.html">Kurti Playlist</a></button>
+      </div>
+      <div class="container-item">
+        <img src="./png/youtube-logo-png-2069.png" alt="Dharmik Fashion Design">
+        <h3>Stylish Pant's</h3>
+        <p class="item-text secondary">Learn all things of Pant cutting and stitching</p>
+        <button class="button"><a href="pant.html">Pant Playlist</a></button>
+      </div>
+      <div class="container-item">
+        <img src="./png/youtube-logo-png-2069.png" alt="Dharmik Fashion Design">
+        <h3>Fashion Shorts </h3>
+        <p class="item-text secondary">View some small tips for sewing and stitching </p>
+        <button class="button"><a href="shorts.html">Shorts Playlist</a></button>
+      </div>
+
+      <div class="container-item">
+        <img src="./png/youtube-logo-png-2069.png" alt="Dharmik Fashion Design">
+        <h3>Saree Reuse Idea</h3>
+        </h1>
+        <p class="item-text secondary">Idea for how to reuse old saree to make stlish dress</p>
+        <button class="button"><a href="reuse.html">Reuse Idea Playlist</a></button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <p class="secondary">Designed and Managed by <a target="_blank" href="https://github.com/kenilkalathiya">Kenil Kalathiya</a>
+    </p>
+    <p class="secondary"> Dharmik Fashion Design &copy; 2021-22 </p>
+    <div class="secondary">
+      <a href="https://www.youtube.com/c/DharmikFashionDesign" class="yt"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

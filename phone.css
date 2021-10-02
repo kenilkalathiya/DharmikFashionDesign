@@ -1,0 +1,221 @@
+/* utility class */
+.primary {
+  font-size: 1.2rem;
+}
+.secondary {
+  font-size: 1rem;
+}
+/* version control */
+li#version {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 75px;
+  font-size: 10px;
+  color: rgb(221, 221, 221);
+}
+body.disabledScroll {
+  overflow: hidden;
+}
+span {
+  margin-right: 50px;
+}
+/* manu button */
+#navbar .manu-list {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background: linear-gradient(-45deg, #33c77c, #074c87, rgb(59, 4, 45));
+  height: 100vh;
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  padding: 40px 20px;
+  /* text-align: center; */
+  transition: all 0.5s ease;
+}
+
+#navbar .manu-list.active {
+  right: 0px;
+}
+#navbar .manu-list li {
+  margin-top: 30px;
+}
+#para i{
+  display: inline-block;
+  font-size:8px;
+  text-align: center;
+}
+.icon {
+  display: block;
+}
+.icon.hide {
+  display: none;
+}
+/* drop-contant */
+.drop-contant {
+  position: static;
+  text-align: left;
+  background: transparent;
+  transition: all 0.5s ease;
+  margin: 4px 14px -20px 16px;
+}
+
+.drop-contant a:hover {
+  background-color: transparent;
+}
+/* navbar */
+#navbar {
+  flex-direction: column;
+}
+/* navbar logo name */
+#navbar .logo-font {
+  padding-right: 0px;
+}
+
+/* navbar logofont */
+#navbar .logo img {
+  width: 90px;
+  height: 78px;
+  margin: 0px 10px;
+}
+/* nav item */
+.item a {
+  padding: 6px;
+  margin: 0px;
+}
+
+/* to flex logo and logo name */
+.for-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 27px;
+}
+#quot-for-pc {
+  display: none;
+}
+#quot-for-phone {
+  display: block;
+}
+
+/* section */
+#section1 .contant {
+  padding: 5px;
+  margin: 225px 5px;
+  height: 250px;
+}
+#section1 .contant::before {
+  height: 650px;
+}
+#section1 .contant p {
+  font-size: 1.1rem;
+}
+
+#section1 .contant p q {
+  font-size: 1.7rem;
+}
+
+.button {
+  margin: auto;
+  width: 136px;
+}
+#section2 .container .container-item #button {
+  width: 200px;
+}
+
+#section2 .button {
+  width: 240px;
+}
+
+/* start section 2 */
+#section2 .container {
+  display: flex;
+  flex-direction: column;
+}
+#section2 .container .container-item {
+  min-width: 520px;
+}
+/* our team  */
+.team {
+  flex-wrap: wrap;
+}
+/* team image */
+
+.wrapper .social-icons {
+  margin: 8px 0 70px 0;
+}
+@media only screen and (max-width: 802px) {
+  .wrapper {
+    width: 126px;
+    height: 155px;
+    padding: 5px;
+    text-align: center;
+    /* margin: 15px; */
+    margin: 60px 10px 15px 0px;
+  }
+
+  .social-icons a {
+    height: 25px;
+    width: 25px;
+  }
+  .social-icons a i {
+    line-height: 24px;
+  }
+}
+.wrapper .img-area {
+  height:76px;
+  width: 76px;
+}
+.wrapper, .wrapper .img-area, .social-icons a {
+  background: white;
+  box-shadow: rgb(255, 255, 255) -1px -1px 7px,
+              rgb(206, 206, 209) 1px 1px 10px;
+}
+/* succesfull youngs */
+.box{
+  width: 60%;
+}
+.embed-text {
+  margin: 15px;
+}
+.responsive-youtube {
+  margin: 20px;
+}
+@media only screen and (max-width: 500px)
+{
+  .box{
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 525px) {
+  #section2 .container .container-item {
+    max-width: 310px;
+    min-width: 310px;
+  }
+}
+
+@media only screen and (max-width: 324px) {
+  #section2 .container .container-item {
+    padding: 5px 2px;
+  }
+  .icon.manu-btn {
+    right: 15px;
+    font-size: 20px;
+  }
+  #navbar .logo img {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  h1 {
+    padding-bottom: 7px;
+  }
+}
+@media only screen and (max-width: 450px){
+  
+}
