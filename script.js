@@ -25,3 +25,15 @@ function toggleHide(){
     para.style.display = 'none';
   }
 }
+
+window.addEventListener('scroll', function(){
+  var scroll = document.querySelector('.up');
+  scroll.classList.toggle("active" , window.scrollY > 100)
+})
+
+function Top(){
+  window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+  })
+}
