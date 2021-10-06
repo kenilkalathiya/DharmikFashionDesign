@@ -253,7 +253,7 @@ li #version {
   text-shadow: 2px 2px 4px black;
   padding: 25px 0px;
   font-size: 1.4rem;
-  z-index: 2;
+  z-index: 5;
 }
 #section1 .contant p q {
   font-size: 2.2vw;
@@ -283,10 +283,12 @@ li #version {
   width: 240px;
 }
 .button a {
-  color: rgb(17, 128, 156);
+  color: rgb(6, 125, 155);
   font-weight: bold;
   text-decoration: none;
+  z-index: 5;
 }
+
 /* now start section 2 */
 #section2 {
   margin-top: 205px;
